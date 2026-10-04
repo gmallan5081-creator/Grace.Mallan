@@ -1,0 +1,70 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hepatitis B Poster</title>
+  <desc id="desc">A science poster illustration about Hepatitis B with a liver symbol and key disease facts.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#eef7ff"/>
+      <stop offset="100%" stop-color="#dfefff"/>
+    </linearGradient>
+    <linearGradient id="liver" x1="0" x2="1">
+      <stop offset="0%" stop-color="#d95757"/>
+      <stop offset="100%" stop-color="#a62d2d"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#6ba5d6" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="955" cy="190" r="110" fill="#f8d9a9" opacity="0.75"/>
+  <circle cx="1030" cy="770" r="140" fill="#cde7ff" opacity="0.7"/>
+
+  <rect x="70" y="70" width="1060" height="760" rx="32" fill="#ffffff" opacity="0.92" filter="url(#shadow)"/>
+
+  <text x="110" y="150" font-size="44" font-family="Arial, sans-serif" fill="#2a4f72" letter-spacing="2">SCIENCE BROCHURE</text>
+  <text x="110" y="235" font-size="86" font-family="Arial, sans-serif" font-weight="700" fill="#183b5b">HEPATITIS B</text>
+  <text x="110" y="285" font-size="28" font-family="Arial, sans-serif" fill="#557799">The Disease Caused by the Hepatitis B Virus</text>
+
+  <g transform="translate(720 200)">
+    <ellipse cx="170" cy="220" rx="170" ry="150" fill="url(#liver)"/>
+    <path d="M75 170 C10 200, 35 295, 130 310 C175 315, 205 300, 240 260 C290 205, 290 120, 235 95 C183 72, 110 85, 90 145 C80 170, 85 180, 75 170Z" fill="#c84a4a" opacity="0.55"/>
+    <path d="M185 100 C205 80, 245 85, 265 120 C282 150, 260 175, 230 190 C206 200, 185 193, 169 174 C151 152, 159 116, 185 100Z" fill="#a32d2d" opacity="0.7"/>
+    <path d="M130 110 C145 80, 183 69, 208 97" stroke="#f0d0d0" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M85 165 C135 145, 182 148, 220 166" stroke="#f0d0d0" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M116 228 C150 246, 191 245, 225 224" stroke="#f0d0d0" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M150 92 L152 260" stroke="#f0d0d0" stroke-width="8" stroke-linecap="round"/>
+    <path d="M200 118 L200 255" stroke="#f0d0d0" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" fill="#234d6d">
+    <rect x="110" y="340" width="250" height="120" rx="15" fill="#eaf4ff"/>
+    <text x="130" y="380" font-size="22" font-weight="700">Common Name:</text>
+    <text x="130" y="410" font-size="34" font-weight="700">Hepatitis B</text>
+
+    <rect x="390" y="340" width="250" height="120" rx="15" fill="#eaf4ff"/>
+    <text x="410" y="380" font-size="22" font-weight="700">Scientific Name:</text>
+    <text x="410" y="410" font-size="27" font-weight="700">Hepatitis B virus</text>
+
+    <rect x="110" y="490" width="530" height="245" rx="18" fill="#f7fafc"/>
+    <text x="130" y="530" font-size="30" font-weight="700">Key Facts</text>
+    <text x="130" y="575" font-size="22">• Prevented by vaccination</text>
+    <text x="130" y="610" font-size="22">• Spread through blood and body fluids</text>
+    <text x="130" y="645" font-size="22">• Can cause liver damage, cirrhosis, and cancer</text>
+    <text x="130" y="680" font-size="22">• Discovered in the early 1960s</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" fill="#2d5f8f">
+    <text x="720" y="545" font-size="22" font-weight="700">Symptoms</text>
+    <text x="720" y="575" font-size="20">• Fatigue</text>
+    <text x="720" y="605" font-size="20">• Nausea</text>
+    <text x="720" y="635" font-size="20">• Jaundice</text>
+    <text x="720" y="665" font-size="20">• Abdominal pain</text>
+    <text x="720" y="695" font-size="20">• Dark urine</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" fill="#ffffff">
+    <rect x="875" y="545" width="180" height="90" rx="16" fill="#4da3d9"/>
+    <text x="900" y="585" font-size="20" font-weight="700">Prevention</text>
+    <text x="903" y="615" font-size="18">Vaccination</text>
+  </g>
+</svg>
